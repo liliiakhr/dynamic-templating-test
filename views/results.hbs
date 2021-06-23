@@ -1,1 +1,7 @@
 <h2>Students who passed the exam:</h2>
+
+
+{{#each sorted}}
+
+    <h3>{{this.name}} has passed an exam with the score of {{this.score}}</h3>
+{{/each}}
